@@ -1,13 +1,11 @@
 #include <stdio.h>
-
+#include <cs50.h>
+#include <string.h>
 
 int main()
 {
-    int x,y,z;
-printf("enter two numbers");
-scanf("%d",&x);
-scanf("%d",&y);
-z=x+y;
-printf("sum is %i",z);
+   string x = get_string (" Enter the first word = ");
+   int y = strlen(x);
+printf("Length is %i \n",y);
 return 0;
 }
